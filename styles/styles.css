@@ -1,0 +1,439 @@
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+header,
+main {
+    max-width: 1170px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+/* header styling */
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-title img {
+    width: 60px;
+    height: 56px;
+}
+
+.nav-title h2 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav li,
+a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* Banner Section Styling */
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 100px 150px;
+}
+
+.banner>p {
+    color: #131318;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.input-banner {
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+}
+
+.input-banner input {
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border-style: none;
+    padding: 10px;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.btn-primary {
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
+    padding: 10px;
+
+}
+
+
+
+/* main section */
+
+/* Popular Tours section */
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.section-description p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popular-tours {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.popular-tours .btn-primary {
+    width: 170px;
+}
+
+/* Choose Your Destination part */
+
+.section-upper-part {
+    text-align: center;
+}
+
+.section-upper-part p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.tour-place {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+/* Why Choose Us part */
+
+.hotels-part,
+.service-part,
+.best-price-part {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px;
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+.hotels-part>h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.service-part>h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+
+}
+
+.best-price-part>h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+
+.hotels-part p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.service-part p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.best-price-part p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+/* Newsletter Part */
+
+.newsletter {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.newsletter-part input {
+    display: block;
+    width: 80%;
+    margin-top: 20px;
+
+}
+
+.newsletter-part input[type="text"] {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px 50px 20px 20px;
+    border-style: none;
+
+}
+
+.newsletter-part input[type="email"] {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 20px 50px 20px 20px;
+    border-style: none;
+
+
+
+}
+
+.btn-secondary {
+    width: 80%;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 15px 120px;
+    border-style: none;
+    margin-top: 20px;
+
+}
+
+.newsletter-part {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+
+}
+
+.newsletter-part h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-part p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Benefits Part */
+.travel-benefits {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.travel-benefits img {
+    width: 60%;
+}
+
+.last-section {
+    background-color: #FFF;
+    border: 1px solid #5A5A5D;
+    border-radius: 12px;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+/* footer part  */
+
+footer {
+    max-width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 100px;
+    margin-top: 40px;
+}
+
+.footer-part {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.social-part {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+footer .nav-title {
+    margin: 0px auto;
+}
+
+/* responsive mobile design */
+@media screen and (max-width:600px) {
+
+    html,
+    body {
+       width: 90%;
+
+
+    }
+
+    header,
+    main {
+        margin: 10px 0px 0px 30px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-title {
+        gap: 0px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .banner img {
+        height: 100%;
+    }
+
+    .banner {
+        padding: 20px;
+    }
+
+    .banner .input-banner {
+        width: 60%;
+    }
+
+    .banner h1 {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+
+    }
+
+    .input-banner {
+        flex-direction: column;
+    }
+
+    .popular-tours {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popular-tours img {
+        width: 100%;
+    }
+
+    .tour-place {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .travel-benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .travel-benefits img {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px auto;
+        width: 75%;
+    }
+
+    .footer-part {
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+
+}
